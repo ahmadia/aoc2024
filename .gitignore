@@ -1,0 +1,31 @@
+# Rust specific
+/target/
+/**/*.rs.bk
+**/*.d
+**/*.rlib
+**/*.lock
+**/*.so
+**/*.crate
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+/env/
+/venv/
+/.idea/
+/.DS_Store
+*egg*
+
+# Conda specific
+/conda-meta/
+*.conda
+*.lock
+*.tar.bz2
+*.tar.gz
+*.yaml
+
+# General
+.vscode/
+*.swp

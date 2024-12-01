@@ -1,0 +1,17 @@
+{
+    "name": "Python & Rust",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "rust": "latest",
+      "python": "3"
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "rust-lang.rust-analyzer",  // Rust support
+          "ms-python.python",        // Python support
+          "bungcip.better-toml"      // TOML support
+        ]
+      }
+    }
+}
